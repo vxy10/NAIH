@@ -1,0 +1,2 @@
+# NAIH
+Neurodivergent AI Helper
