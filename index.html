@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <p>AI helper for answering questions of parents with speech delayed children. All questions are answered on your computer using webGPU in your browser. You data stays never leaves your computer. </p>
+    <div class="download-container">
+    </div>
+    <p id="download-status" class="hidden"></p>
+
+    <p>Step 2: Chat</p>
+    <div class="chat-container">
+      <div id="chat-box" class="chat-box"></div>
+      <div id="chat-stats" class="chat-stats hidden"></div>
+      <div class="chat-input-container">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button id="send" disabled>Send</button>
+      </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
